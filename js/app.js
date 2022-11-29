@@ -1,4 +1,7 @@
-console.log("llega");
+if(navigator.serviceWorker){
+    navigator.serviceWorker.register("/foto/sw.js")
+}
+
 
 const btnCamara = document.getElementById("btnCamara")
 const btnCapturar = document.getElementById("btnCapturar")
